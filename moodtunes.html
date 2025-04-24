@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>MoodTunes</title>
+  <link rel="stylesheet" href="moodtunes.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>How are you feeling today?</h1>
+    <div class="buttons">
+      <button onclick="setMood('happy')">😊 Happy</button>
+      <button onclick="setMood('sad')">😢 Sad</button>
+      <button onclick="setMood('calm')">😴 Calm</button>
+      <button onclick="setMood('energetic')">💪 Energetic</button>
+      <button onclick="setMood('Anger')">😠 Anger</button>
+    </div>
+    <div class="extra-button">
+        <button onclick="setMood('depressed')">😞 Depressed</button>
+      </div>
+    <div id="message"></div>
+    <div id="music"></div>
+ 
+    
+  </div>
+  <script src="moodtunes.js"></script>
+</body>
+</html>
+
